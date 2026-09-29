@@ -1,13 +1,9 @@
-# UnetGen-IFD
+# CGGM-IFD
 
-This repository contains the official implementation of our paper titled *"A Novel UNet-Guided Conditional Generative Model for Enhancing Fault Diagnosis of Rolling Bearings Under Data-Scarce Conditions"*. 
+This repository contains the official implementation of our paper titled *"Source-to-Target Data Augmentation via a Fault-Category-Guided Generative Model for Industrial Fault Diagnosis Under Data Scarcity"*. 
 
 The corresponding manuscript has been submitted to the journal for peer review.
 
-The complete source code with detailed annotations and usage instructions will be released shortly after the manuscript review process. ***Please watch this repository for updates.***
-
-Currently, the following modules are released:
-
 * **UNnet-based conditional generative model**: `./models/ours_model.py`
 * **CFMM loss function**: `./utils/mcfm.py`
-* training losses: `./utils/losses.py`
+* **training losses**: `./utils/losses.py`
